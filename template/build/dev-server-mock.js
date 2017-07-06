@@ -23,6 +23,12 @@ var autoOpenBrowser = !!config.dev.autoOpenBrowser
 var proxyTable = config.dev.proxyTable
 
 var app = express()
+
+// 添加路由选择
+//定义状态码 这个随意定义
+var apir = require('../mock/mockjs');
+app.use('/api', apir)
+
 // console.log(webpackConfig);
 var compiler = webpack(webpackConfig)
 
@@ -43,6 +49,8 @@ compiler.plugin('compilation', function (compilation) {
 })
 
 // proxy api requests
+console.log(proxyTable)
+
 Object.keys(proxyTable).forEach(function (context) {
   var options = proxyTable[context]
   if (typeof options === 'string') {
