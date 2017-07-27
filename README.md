@@ -55,5 +55,5 @@ If port 8080 is already in use on your machine you must change the port number i
 You can fork this repo to create your own boilerplate, and use it with `vue-cli`:
 
 ``` bash
-vue init username/repo my-project
+vue init dukegod/vuejs-webpack-templates my-project
 ```
