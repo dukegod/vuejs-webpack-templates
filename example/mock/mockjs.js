@@ -9,7 +9,7 @@ const aipRouter = express.Router();
 aipRouter.get('/news', (req, resp) => {
   resp.json({
     code: 0,
-    data: JSON.stringify(db.news, null, 4),
+    data: db.news,
   });
 });
 

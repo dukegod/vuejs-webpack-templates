@@ -1,8 +1,8 @@
 {
-  "name": "vue-cli",
-  "version": "1.0.0",
+  "name": "vue-club",
+  "version": "2.1.0",
   "description": "A Vue.js project",
-  "author": "liuhui",
+  "author": "liuhui <liuhui15@jd.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -17,8 +17,11 @@
   },
   "dependencies": {
     "axios": "^0.16.2",
-    "vue": "^2.2.6",
-    "vue-router": "^2.3.1"
+    "loader-utils": "^1.1.0",
+    "qs": "^6.5.0",
+    "vue": "^2.3.4",
+    "vue-router": "^2.3.1",
+    "vuex": "^2.3.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",
@@ -30,6 +33,7 @@
     "babel-preset-env": "^1.3.2",
     "babel-preset-stage-2": "^6.22.0",
     "babel-register": "^6.22.0",
+    "bootstrap": "^4.0.0-alpha.6",
     "chai": "^3.5.0",
     "chalk": "^1.1.3",
     "chromedriver": "^2.27.2",
@@ -62,6 +66,8 @@
     "karma-sourcemap-loader": "^0.3.7",
     "karma-spec-reporter": "0.0.30",
     "karma-webpack": "^2.0.2",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.4",
     "lolex": "^1.5.2",
     "mocha": "^3.2.0",
     "mockjs": "^1.0.1-beta3",
@@ -80,7 +86,7 @@
     "url-loader": "^0.5.8",
     "vue-loader": "^11.3.4",
     "vue-style-loader": "^2.0.5",
-    "vue-template-compiler": "^2.2.6",
+    "vue-template-compiler": "^2.3.4",
     "webpack": "^2.3.3",
     "webpack-bundle-analyzer": "^2.2.1",
     "webpack-dev-middleware": "^1.10.0",

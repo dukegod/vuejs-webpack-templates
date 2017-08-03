@@ -3,9 +3,9 @@
 import Vue from 'vue';
 import App from './App';
 import router from './router';
-
+// import resolution from './utils/resolution';
+// import bt from 'bootstrap';
 Vue.config.productionTip = false;
-
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
