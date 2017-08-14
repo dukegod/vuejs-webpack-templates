@@ -2,3 +2,4 @@ node_modules
 .DS_Store
 docs/_book
 example/node_modules
+example/vue-clubs/node_modules
