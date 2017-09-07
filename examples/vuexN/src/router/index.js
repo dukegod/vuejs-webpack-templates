@@ -6,6 +6,8 @@ import add from '@/components/add';
 import del from '@/components/del';
 import list from '@/components/list';
 
+import counter from '@/counter';
+
 Vue.use(Router);
 
 export default new Router({
@@ -14,6 +16,11 @@ export default new Router({
       path: '/hello',
       name: 'Hello',
       component: Hello,
+    },
+    {
+      path: '/counter',
+      name: 'counter',
+      component: counter,
     },
     {
       path: '/',
